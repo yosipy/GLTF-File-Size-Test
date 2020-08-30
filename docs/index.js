@@ -41,7 +41,7 @@ function modelLoad(url) {
 }
 
 window.addEventListener('DOMContentLoaded', init)
-function init() {
+async function init() {
 	const canvas_width = window.innerWidth
 	const canvas_height = window.innerHeight
 	const scene = new THREE.Scene()
